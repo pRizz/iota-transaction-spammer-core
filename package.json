@@ -1,0 +1,27 @@
+{
+  "name": "iota-transaction-spammer-core",
+  "version": "1.0.2",
+  "description": "Spams the IOTA network with transactions doing proof-of-work locally. Must inject a curl implementation to perform proof-of-work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pRizz/iota-transaction-spammer-core.git"
+  },
+  "keywords": [
+    "IOTA"
+  ],
+  "author": "Peter Ryszkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pRizz/iota-transaction-spammer-core/issues"
+  },
+  "homepage": "https://github.com/pRizz/iota-transaction-spammer-core#readme",
+  "dependencies": {
+    "curl-transaction-core": "^1.0.2",
+    "iota.lib.js": "^0.4.7",
+    "wolfy87-eventemitter": "^5.2.5"
+  }
+}
