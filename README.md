@@ -1,4 +1,7 @@
 # iota-transaction-spammer-core
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pRizz/iota-transaction-spammer-core.svg)](https://greenkeeper.io/)
+
 Spams the IOTA network with transactions doing proof-of-work locally. Must inject a curl implementation to perform proof-of-work.
 
 The acceptable curl implementations at the moment are [ccurl](https://github.com/pRizz/curl-transaction-ccurl-impl)  and [WebGL2](https://github.com/pRizz/curl-transaction-webgl2-impl)
