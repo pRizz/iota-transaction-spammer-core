@@ -21,7 +21,7 @@
   "homepage": "https://github.com/pRizz/iota-transaction-spammer-core#readme",
   "dependencies": {
     "curl-transaction-core": "^1.0.2",
-    "iota.lib.js": "^0.4.7",
+    "iota.lib.js": "^0.5.0",
     "wolfy87-eventemitter": "^5.2.5"
   }
 }
